@@ -9,11 +9,11 @@ for (let i = 0; i < 100; i++) {
 
     const newEl = createAnElement("div", "square");
 
+    
+
     gridCampo.append(newEl);
-    console.log(i);
 
 }
-/* console.log(newEl); */
 
 
 
