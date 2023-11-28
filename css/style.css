@@ -1,0 +1,11 @@
+
+.page{
+    width: 100vw;
+    height: 100vh;
+}
+
+.square{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+}
