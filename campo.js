@@ -14,6 +14,7 @@ for (let i = 1; i <= 100; i++) {
         function () {
 
             this.classList.add("clicked");
+            console.log(i);
 
         }
 
