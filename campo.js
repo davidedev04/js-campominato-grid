@@ -5,11 +5,11 @@
 const gridCampo = document.getElementById("grid");
 
 // definiamo il ciclo della tabella
-for (let i = 0; i < 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
     const newEl = createAnElement("div", "square");
 
-    
+    newEl.append(i);
 
     gridCampo.append(newEl);
 

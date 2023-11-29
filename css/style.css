@@ -20,4 +20,8 @@
     width: 10%;
     height: 10%;
     border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
 }
