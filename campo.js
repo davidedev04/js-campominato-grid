@@ -9,6 +9,15 @@ for (let i = 1; i <= 100; i++) {
 
     const newEl = createAnElement("div", "square");
 
+    newEl.addEventListener("click",
+
+        function () {
+
+            this.classList.add("clicked");
+
+        }
+
+    )
     newEl.append(i);
 
     gridCampo.append(newEl);
